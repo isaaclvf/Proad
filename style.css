@@ -1,0 +1,164 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #054f77;
+  color: #ffffff;
+  --text-body-secondary: #ffffff;
+  --bs-link-color: #ffffff;
+  --bs-link-hover-color: #A8A8A7;
+}
+
+nav {
+  color: #ffffff;
+  background-color: #054f77;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #ffffff;
+  border-radius: 0.375rem;
+}
+
+.navbar-brand {
+  color: #ffffff;
+}
+
+#div-carrossel {
+  padding-top: 0px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0);
+}
+
+
+#btn-proad {
+  --bs-body-color: #ffffff;
+  --bs-btn-color: #ffffff;
+  --bs-btn-hover-color: #ffffff;
+
+  --bs-btn-active-color: #ffffff;
+  --bs-btn-active-bg: #003259;
+  --bs-btn-active-border-color: #003259;
+}
+
+#btn-pesquisar {
+  --bs-btn-color: #ffffff;
+  --bs-btn-border: #054f77;
+  --bs-btn-border-color: #054f77;
+
+  --bs-btn-bg: #003259;
+
+  --bs-btn-active-bg: #002148;
+  --bs-btn-active-border-color: #002148;
+
+  --bs-btn-hover-bg: #003259;
+  --bs-btn-hover-border-color: #003259;
+}
+
+#btn-informes {
+  --bs-btn-color: #ffffff;
+  --bs-btn-border-color: #054f77;
+  --bs-btn-bg: #054f77;
+
+  --bs-btn-active-bg: #002148;
+  --bs-btn-active-border-color: #002148;
+
+  --bs-btn-hover-bg: #003259;
+  --bs-btn-hover-border-color: #003259;
+}
+
+h2 {
+  color: #444455;
+  margin-bottom: 20px;
+}
+
+.custom-link {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  color: white;
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  opacity: 1;
+}
+
+.offcanvas {
+  background-color: #054f77;
+}
+
+.footer-border-top {
+  border-top: 1px solid #5084a0;
+}
+
+.footer-border-end {
+  border-right: 1px solid #5084a0;
+}
+
+.footer-text {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.zoom-container {
+  background-color: #e7e8e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  /* Define a altura da div como 100% da altura da tela */
+  width: 1100px;
+  overflow: hidden;
+}
+
+.zoom-container img {
+  transition: transform 0.3s ease;
+  /* Adiciona uma transição suave para o efeito de zoom */
+}
+
+.zoom-container:hover img {
+  transform: scale(1.7);
+  /* Ajuste o valor conforme necessário para o nível de zoom desejado */
+
+}
+
+#zoom-image {
+  width: 1100px;
+  /* Tamanho padrão da imagem */
+  height: auto;
+  transition: transform 0.3s ease;
+  /* Adiciona uma transição suave para o efeito de zoom */
+}
+
+.nav-img {
+  display: block;
+  width: 300px;
+}
+
+@media (max-width: 575.98px) {
+  .nav-img {
+    width: 200px;
+  }
+
+  .dropdown-item {
+    text-wrap: wrap;
+  }
+}
+
+.cronograma {
+  max-width: 100%;
+}
+

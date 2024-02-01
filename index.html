@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Proad</title>
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <!----======== BOOTSTRAP JS ======== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!----======== BOOTSTRAP CSS ======== -->
+
+  <!----======== BOOTSTRAP ICONS ======== -->
+
+  <!----======== NOSSO CSS ======== -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav>
+    <div id="navbar"></div>
+    <script>
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('navbar').innerHTML = data;
+        });
+    </script>
+  </nav>
+
+  <!-- pagina inicio -->
+  <main>
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <section class="inicio" id="inicio">
+          <h2 id="titulo-informes">Informes</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Ler informe</title>
+                  <image width="100%" height="100%" href="./img/informe-eventos.jpg" />
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Licitação para contratação de organização de eventos</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    </div>
+                    <small class="text-body-secondary">27/11/2023 às 10h56</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" src="./img/informe-eventos.jpg" focusable="false">
+                  <title>Ler informe</title>
+                  <image width="100%" height="100%" href="./img/informe-laboratorio.jpg" />
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Licitação para aquisição de material e equipamentos de uso hospitalar e
+                    laboratorial
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    </div>
+                    <small class="text-body-secondary">17/11/2023 às 13h31</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Ler informe</title>
+                  <image width="100%" height="100%" href="./img/informe-revista.jpg" />
+                </svg>
+                <div class="card-body">
+                  <p class="card-text"> Licitação para Aquisição de material gráfico – Revistas</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    </div>
+                    <small class="text-body-secondary">16/11/2023 às 08h26</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Ler informe</title>
+                  <image width="100%" height="100%" href="./img/informe-bolsas-estudo.jpg" />
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Divulgado resultado parcial do Edital nº 08 da UFCA Itinerante</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    </div>
+                    <small class="text-body-secondary">30/01/2024 às 12h32</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Ler informe</title>
+                  <image width="100%" height="100%" href="./img/informe-estagiario.jpg" />
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">DTI/UFCA seleciona estudantes da Universidade para estágio supervisionado</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    </div>
+                    <small class="text-body-secondary">09/01/2024 às 08h17</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Ler informe</title>
+                  <image width="100%" height="100%" href="./img/informe-professores-academicos.jpg" />
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">Proex/UFCA abre chamada para avaliadores de propostas de Extensão 2024</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    </div>
+                    <small class="text-body-secondary">10/01/2024 às 08h53</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a id="btn-informes" class="btn btn-primary float-end mt-3" href="https://www.ufca.edu.br/informes"
+            target="_blank" role="button">Outros informes</a>
+          <br>
+          <br>
+        </section>
+
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h2>Cronograma</h2>
+                <div id="zoom-container" class="zoom-container cronograma">
+                  <img class="img-fluid" id="zoom-image" width="100%" height="100%" src="./img/index-organograma.png"
+                    alt="Sua Imagem">
+                </div>
+              </div>
+            </div>
+        </section>
+
+
+      </div>
+
+
+    </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div id="footer" class="container"></div>
+    <script>
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer').innerHTML = data;
+        });
+
+    </script>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

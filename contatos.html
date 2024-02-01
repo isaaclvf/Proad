@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Proad</title>
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <!----======== BOOTSTRAP JS ======== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!----======== BOOTSTRAP CSS ======== -->
+
+  <!----======== BOOTSTRAP ICONS ======== -->
+
+  <!----======== NOSSO CSS ======== -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav>
+    <div id="navbar"></div>
+    <script>
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('navbar').innerHTML = data;
+        });
+    </script>
+  </nav>
+
+  <!----======== Contatos em lista ======== -->
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container pt-xl">
+      <div class="row">
+        <div class="col-md-10 offset-md-1">
+          <h2>Fale conosco</h2>
+
+          <div class="accordion" id="accordionExample">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Pró-Reitoria
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="text-center"> Campus Juazeiro do Norte, Bloco K (3º Andar, Sala K303) </div>
+                  <hr class="my-3">
+                  <div class="container text-center">
+                    <div class="row justify-content-md-center">
+                      <div class="col offset-md-1">
+                        <div class="card" style="width: 18rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Tiago de Alencar Viana</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Pró-Reitor de Administração</h6>
+                            <p class="card-text">tiago.alencar@ufca.edu.br</p>
+                            <p class="card-text">(88) 3221.9224 / (88) 3221.9220</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col offset-md-1">
+                        <div class="card" style="width: 18rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Túlio Bessa Almeida Gonçalves</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Pró-Reitor Adjunto</h6>
+                            <p class="card-text">tulio.bessa@ufca.edu.br</p>
+                            <p class="card-text">(88) 3221.9240</p>
+                          </div>
+                        </div>
+                      </div>
+                      <p> </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Núcleo de Gestão
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#collapseThree">
+                <div class="accordion-body">
+                  <div class="text-center"> Campus Juazeiro do Norte, Bloco K (3º Andar, Sala K303) </div>
+                  <hr class="my-3">
+                  <div class="container text-center">
+                    <div class="row justify-content-md-center">
+                      <div class="col justify-content-md-center">
+                        <div class="card" style="width: 18rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Victor Hugo de Holanda Tavares</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Chefe</h6>
+                            <p class="card-text">ng.proad@ufca.edu.br</p>
+                            <p class="card-text">(88) 3221.9224</p>
+                          </div>
+                        </div>
+                      </div>
+                      <p> </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Núcleo de Apoio Legislativo
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#collapseFour">
+                <div class="accordion-body">
+                  <div class="text-center"> Campus Juazeiro do Norte, Bloco I, 4º Andar, Sala 402 </div>
+                  <hr class="my-3">
+                  <div class="container text-center">
+                    <div class="row justify-content-md-center">
+                      <div class="col justify-content-md-center">
+                        <div class="card" style="width: 18rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Francisco Willamy de Brito Rocha</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Chefe</h6>
+                            <p class="card-text">nalegis.proad@ufca.edu.br</p>
+                            <p class="card-text">(88) 3221.9238</p>
+                          </div>
+                        </div>
+                      </div>
+                      <p> </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Núcleo de Assessoria Contábil
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#collapseFive">
+                <div class="accordion-body">
+                <div class=" text-center"> Campus Juazeiro do Norte, Bloco K (3º Andar, Sala K303) </div>
+                <hr class="my-3">
+                <div class="container text-center">
+                  <div class="row justify-content-md-center">
+                    <div class="col justify-content-md-center">
+                      <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Carlos Henrique Porfírio da Silva</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary">Chefe</h6>
+                          <p class="card-text">nac.proad@ufca.edu.br</p>
+                          <p class="card-text">(88) 3221.9231</p>
+                        </div>
+                      </div>
+                    </div>
+                    <p> </p>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer>
+    <div id="footer" class="container"></div>
+    <script>
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer').innerHTML = data;
+        });
+
+    </script>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
